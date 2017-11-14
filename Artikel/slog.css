@@ -1,0 +1,603 @@
+﻿body{
+height:100%;
+}
+#seznam a{
+	color:#a97c50;
+	text-decoration: none;
+
+}
+
+
+/*Glavni Div za premik*/
+#main {
+margin: 0 auto 0 auto;
+width:700px; 
+}
+
+/*Zgornji Meni*/
+#seznam {
+width:900px;
+height:auto;
+}
+
+/*Div za jezik gumb*/
+#drzava {
+width: 960px;
+height: 100px;
+display:block;
+margin-top:-30px;
+}
+
+/*Jezik-text*/
+#drzava p{
+position:absolute;
+margin:-50px 0px 0px 65px;
+color:#a97c50;
+font-family:Myriad Pro;
+}
+/*ikona Slovenije*/
+#ikona {
+position:absolute;
+margin-top:60px;
+margin-left:620px;
+height: 100px;
+width:99px;
+}
+
+
+/*Logotip*/
+#logo_g {
+float:left;
+margin: -40px auto 0px;
+height: 100px;
+width:99px;
+}
+
+/*Gumb Jezik*/
+#jezik_g {
+float:left;
+height: 30px;
+width:60px;
+margin-left:590px;
+margin-top:30px;
+}
+
+/*Gumb trgovina*/
+#trgovina_g {
+float:left;
+margin: 0px auto 0px;
+height: 50px;
+width:160px;
+}
+
+/*Gumb trgovina_text*/
+#trgovina_g p{
+position:absolute;
+margin:-75px 0px 0px 35px;
+color:gray;
+font-family:Myriad Pro;
+font-size:36px;
+text-decoration: none;
+
+}
+
+
+/*Gumb novosti*/
+#novosti_g {
+float:left;
+margin: 0px auto 0px;
+height: 50px;
+width:160px;
+}
+
+/*Gumb novosti-text*/
+#novosti_g p{
+position:absolute;
+margin:-75px 0px 0px 45px;
+color:#a97c50;
+font-family:Myriad Pro;
+font-size:36px;
+text-decoration: none;
+
+
+}
+
+
+/*Gumb_galerija*/
+#galerija_g {
+float:left;
+margin: 0px auto 0px;
+height: 50px;
+width:160px;
+}
+
+/*Gumb_galerija-text*/
+#galerija_g p{
+position:absolute;
+margin:-75px 0px 0px 45px;
+color:#a97c50;
+font-family:Myriad Pro;
+font-size:36px;
+
+}
+
+
+/*Gumb o nas*/
+#onas_g {
+float:left;
+margin: 0px auto 0px;
+height: 50px;
+width:160px;
+}
+
+/*Gumb o nas-text*/
+#onas_g p{
+position:absolute;
+margin:-75px 0px 0px 55px;
+color:#a97c50;
+font-family:Myriad Pro;
+font-size:36px;
+
+}
+	
+/*Seznam Košarica*/
+#kosarica_list{
+position:absolute;
+	margin-left:500px;
+	margin-top:650px
+}
+
+/*Moja Košarica-text*/
+#kosarica_list .p1{
+position:absolute;
+margin-top:50px;
+margin-left:50px;
+color:black;
+font-family:Myriad Pro;
+font-weight:900;
+font-size:18px;
+
+}
+
+/*Izdelek-text*/
+#kosarica_list .p2{
+position:absolute;
+margin-top:100px;
+margin-left:70px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*količina-text*/
+#kosarica_list .p3{
+position:absolute;
+margin-top:100px;
+margin-left:177px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*cena-text*/
+#kosarica_list .p4{
+position:absolute;
+margin-top:100px;
+margin-left:217px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*skupaj-text*/
+#kosarica_list .p5{
+position:absolute;
+margin-top:280px;
+margin-left:60px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*Gumb Košarica*/
+#gumb_kos{
+	margin-top:-330px;
+	margin-left:210px;
+	position:absolute;
+	z-index:1;
+}
+
+/*zaslon galerije*/
+#zasl_gal{
+	position:absolute;
+	margin-top:280px;
+	margin-left:-60px
+}
+
+/*galerije*/
+#galerija{
+	position:absolute;
+	margin-top:-296px;
+	margin-left:200px
+}
+
+
+/*opis artikla*/
+#opis{
+	position:absolute;
+	margin-top:280px;
+	margin-left:500px
+}
+
+/*Artikel ime-text*/
+#opis .p1{
+position:absolute;
+margin-top:56px;
+margin-left:60px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+/*Artikel opis-text*/
+#opis .p2{
+position:absolute;
+margin-top:110px;
+margin-left:43px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*Artikel redna cena-text*/
+#opis .p3{
+position:absolute;
+margin-top:85px;
+margin-left:43px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+/*Artikel cena-text*/
+#opis .p4{
+position:absolute;
+margin-top:85px;
+margin-left:190px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+
+
+
+/*Ocena artikla*/
+#ocena{
+	position:absolute;
+	margin-top:1020px;
+	margin-left:500px
+}
+
+/*ocena-text*/
+#ocena .p1{
+position:absolute;
+margin-top:55px;
+margin-left:90px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+
+}
+
+#zvezdice{
+	position:absolute;
+margin-top:89px;
+margin-left:53px;
+z-index:1;
+}
+      .rating {
+          overflow: hidden;
+          display: inline-block;
+      }
+      .rating-input {
+          position: absolute;
+          left: 0;
+          top: -50px;
+      }
+      .rating-star {        
+          display: block;
+          float: right;        
+          width: 40px;
+          height: 30px;
+          background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -30px;
+         background-size:40px 60px;
+      }
+      .rating-star:hover,
+      .rating-star:hover ~ .rating-star,
+      .rating-input:checked ~ .rating-star {
+          background-position: 0 0;
+      }
+
+
+/*Slika na zaslonu*/
+#Slika_meda{
+position:absolute;
+	margin-top:-235px;
+	margin-left:230px
+}
+
+
+/*Slika Zaslona*/
+#zas_slika{
+	margin-top:1020px;
+	position:absolute;
+	margin-left:0px
+}
+
+/*Slika medo*/
+#medo_sl{
+	margin-top:1050px;
+	position:absolute;
+	margin-left:110px;
+	z-index:1;
+
+}
+
+
+/*Ime artikla-text*/
+#zaslon .p1{
+position:absolute;
+margin-top:1100px;
+margin-left:230px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+z-index:1;
+}
+
+/*Cena artikla-text*/
+#zaslon .p3{
+position:absolute;
+margin-top:1120px;
+margin-left:260px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+z-index:1;
+}
+
+
+/*ogled artikla-text*/
+#zaslon .p2{
+position:absolute;
+margin-top:1180px;
+margin-left:-400px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+z-index:1;
+
+}
+
+
+
+/*Gumb Zaslona Desni*/
+#g_zas_prvi{
+	margin-top:1110px;
+	margin-left:360px;
+	position:absolute;
+
+}
+
+/*transparent za oba gumba na zaslonu*/
+button{
+
+    background: transparent;
+    border: none;
+    font-size:0;
+}
+
+/*Gumb Zaslona Levi*/
+#g_zas_drugi{
+	margin-top:1110px;
+	margin-left:0px;
+	position:absolute;
+}
+
+
+/*Gumb v kosarico*/
+#kos_gumb{
+	margin-top:800px;
+	margin-left:50px;
+	position:absolute;
+}
+
+/*slikica za galerijo 1*/
+#slikica1{
+	margin-top:650px;
+	margin-left:0px;
+	position:absolute;
+}
+
+/*slikica 1*/
+#slika1{
+	margin-top:-90px;
+	margin-left:30px;
+	position:absolute;
+	z-index:1;
+}
+
+
+/*slikica za galerijo 2*/
+#slikica2{
+	margin-top:650px;
+	margin-left:150px;
+	position:absolute;
+}
+#slika2{
+	margin-top:-90px;
+	margin-left:30px;
+	position:absolute;
+		z-index:1;
+
+}
+
+/*slikica za galerijo 3*/
+#slikica3{
+	margin-top:650px;
+	margin-left:300px;
+	position:absolute;
+}
+#slika3{
+	margin-top:-90px;
+	margin-left:30px;
+	position:absolute;
+		z-index:1;
+
+}
+
+
+
+/*medo za ozadje*/
+#medo_ozadje{
+	margin-top:140px;
+	margin-left:-60px;
+	position:absolute;
+	z-index:-1;
+}
+
+/*Noga Strani*/
+#noga{
+	height:180px;
+	width:900px;
+	margin-top:1250px;
+	margin-right:170px;
+	margin-left:-80px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+
+
+}
+
+
+/*CMS-text*/
+#noga .p1{
+position:absolute;
+margin-top:100px;
+margin-left:90px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+
+}
+
+/*Domov-text*/
+#noga .p2{
+position:absolute;
+margin-top:100px;
+margin-left:129px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+
+}
+
+/*Podjetje-text*/
+#noga .p3{
+position:absolute;
+margin-top:100px;
+margin-left:185px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+
+}
+
+/*Pogoji_poslovanja-text*/
+#noga .p4{
+position:absolute;
+margin-top:100px;
+margin-left:247px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+
+}
+
+/*Tedy-Tech-text*/
+#noga .p5{
+position:absolute;
+margin-top:90px;
+margin-left:400px;
+color:black;
+font-family:Myriad Pro;
+font-weight:500;
+font-size:24.15px;
+
+}
+
+/*Tadej Horvat-text*/
+#noga .p6{
+position:absolute;
+margin-top:115px;
+margin-left:415px;
+color:black;
+font-family:Myriad Pro;
+font-weight:500;
+font-size:14px;
+
+}
+
+/*Share-text*/
+#noga .p7{
+position:absolute;
+margin-top:125px;
+margin-left:707px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+}
+
+/*Share_2-text*/
+#noga .p8{
+position:absolute;
+margin-top:125px;
+margin-left:750px;
+color:black;
+font-family:Myriad Pro;
+font-weight:600;
+font-size:14px;
+text-decoration: none;
+}
+
